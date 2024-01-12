@@ -1,0 +1,9 @@
+const baseURL = 'http://192.168.3.117:8080/';
+// const baseURL = 'http://172.16.30.13:8080/';
+export const GET_LIST_PROGRESIVOS_BY_SALON_ID = baseURL + 'Progresivos/findBySalonIdForGrid/';
+export const POST_ADD_PROGRESIVO = baseURL + 'Progresivos/save';
+export const FIND_PROGRESIVO_BY_ID = baseURL + 'Progresivos/findByProgresivoId/';
+export const POST_UPDATE_PROGRESIVO = baseURL + 'Progresivos/update';
+export const POST_ENABLE_LIST_PROGRESIVO = baseURL + 'Progresivos/cambiarEstadoList/1335';
+export const POST_DELETE_PROGRESIVO = baseURL + 'Progresivos/delete/';
+export const GET_SHOW_DESCRIPTION = baseURL + 'Progresivos/observacion/';
